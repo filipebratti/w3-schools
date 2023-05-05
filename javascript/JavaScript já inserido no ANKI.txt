@@ -1,0 +1,7 @@
+1 - JS Home
+2 - JS Introduction
+3 - JS Where To
+4 - JS Output
+5 - JS Statements
+6 - JS Syntax 
+7 - Comments

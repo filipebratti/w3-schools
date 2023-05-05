@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+
+    <script>
+      const myVehicle = {
+        brand: 'Ford',
+        model: 'Mustang',
+        color: 'red'
+      }
+
+      const updateMyVehicle = {
+        type: 'car',
+        year: 2021,
+        color: 'yellow'
+      }
+
+      const myUpdateVehicle = {...myVehicle, ...updateMyVehicle};
+
+      document.write(myUpdateVehicle);
+      console.log(myUpdateVehicle);
+    </script>
+
+    <p>Press F12 and see the result object in the console view.</p>
+
+  </body>
+</html>

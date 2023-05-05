@@ -1,0 +1,10 @@
+Já inserido no Anki
+
+1 - Home
+2 - Introduction
+3 - Editors
+4 - Basic
+5 - Elements
+6 - Attributes
+7 - Heandings
+8 - Paragraphs

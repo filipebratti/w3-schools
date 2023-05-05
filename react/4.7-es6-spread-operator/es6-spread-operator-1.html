@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+
+    <script>
+      const numbersOne = [1, 2, 3];
+      const numbersTwo = [4, 5, 6];
+      const numbersCombined = [...numbersOne, ...numbersTwo];      
+
+      const namesOne = ["Filipe", "Juliana", "Henrique"];
+      const namesTwo = ["Vera", "Juarez", "Arthur"];
+      const namesCombined = [...namesOne, ...namesTwo];      
+
+      const carsOne = ["Audi", "BMW", "Mercedes", "Jaguar"];
+      const carsTwo = ["Ferrari", "Lamborghini", "McLaren", "Porsche"];
+      const carsCombined = [...carsOne, ...carsTwo];
+
+      document.write("<p>" + numbersCombined + "</p>");
+      document.write("<p>" + namesCombined + "</p>");
+      document.write("<p>" + carsCombined + "</p>");
+    </script>
+
+  </body>
+</html>
