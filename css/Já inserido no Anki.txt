@@ -1,0 +1,10 @@
+Já adicionado ao Anki:
+
+1 - Home
+2 - Introduction
+3 - Syntax
+4 - Selectors
+5 - How To
+6 - Comments
+7 - Colors
+7.1 - 
