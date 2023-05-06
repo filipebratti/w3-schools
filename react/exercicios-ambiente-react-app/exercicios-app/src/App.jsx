@@ -1,43 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import audiFoto from './assets/audi.jpg'
 import './App.css'
+import ComponentsOne from './components/ComponentsOne'
+import Car from './components/ComponentsOne'
+import ComponentsTwo from './components/ComponentsTwo'
+import ComponentsThree from './components/ComponentsThree'
+import PropsOne from './components/PropsOne'
+import PropsTwo from './components/PropsTwo'
+import PropsThree from './components/PropsThree'
+import PropsFour from './components/PropsFour'
+import EventsOne from './components/EventsOne'
+import EventsTwo from './components/EventsTwo'
+import EventsThree from './components/EventsThree'
+import FormsOne from './components/FormsOne'
+import FormsTwo from './components/FormsTwo'
+import FormsThree from './components/FormsThree'
+import FormsFour from './components/FormsFour'
+import FormsFive from './components/FormsFive'
+import FormsSix from './components/FormsSix'
+import ChatContextOne from './components/ChatContextOne'
+import ChatContextTwo from './components/ChatContextTwo'
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  let a = 10;
-  let b = 2;
-  let c = a + b;
-
-  function myFunction(p1, p2) {
-    return p1 * p2;
-  }
-  alert(myFunction(5,5));
-
-  function nome() {
-    return "Filipe"
-  }
-  alert(nome);
+  
 
   return (
     <div className="App">      
-      <h1>{"Hello World!"}</h1>
-      <p>{"Meu nome é Filipe Bratti, e esse é minha primeira alteração em um projeto React!"}</p>
-      <br />
-      <img src={reactLogo} alt="Imagem da Logo do React" srcset="" width={200} />
-      <br /><br />
-      <img src={audiFoto} alt="" width={300} />
-      <ul>
-        <li>Audi</li>
-        <li>BMW</li>
-        <li>Mercedes</li>
-      </ul>
-      <label htmlFor="nome">Qual seu nome?</label><br />
-      <input type="text" name="nome" id="nome" /><br /><br />
-      <button>Enviar</button>     
-
+      <ComponentsOne /><hr />
+      <Car /><hr />
+      <ComponentsTwo /><hr />
+      <ComponentsThree /><hr />
+      <PropsOne brand="Ford" /><hr />
+      <PropsTwo /><hr />
+      <PropsThree /><hr />
+      <PropsFour /><hr />
+      <EventsOne /><hr />
+      <EventsTwo /><hr />
+      <EventsThree /><hr />
+      <FormsOne /><hr />
+      <FormsTwo /><hr />
+      <FormsThree /><hr />
+      <FormsFour /><hr />
+      <FormsFive /><hr />
+      <FormsSix /><hr />
+      <ChatContextOne /><hr />
+      <ChatContextTwo />
     </div>
     
   )
