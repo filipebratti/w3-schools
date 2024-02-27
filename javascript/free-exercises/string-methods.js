@@ -22,5 +22,9 @@ console.log(text.charAt(5));
 console.log(text[0]);
 console.log(text[5]);
 
+const numbers = [1, 2, 3, 6, 8, 10];
+const filteredNumbers = numbers.filter(num => num > 5);
+console.log(filteredNumbers);
+
 
 
