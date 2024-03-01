@@ -24,3 +24,18 @@ const subFunction = function (a, b) {
 let myFirstSub = subFunction(5, 2);
 let mySecondSub = subFunction(15, 3);
 console.log(myFirstSub, mySecondSub);
+
+console.log(myHoistingFunction(5))
+function myHoistingFunction(y) {
+    return y * y;    
+}
+
+(function () {
+    console.log("Hello, I called myself!")
+})();
+
+function myValueFunction(a, b) {
+    return a * b;
+}
+let value = myValueFunction(4, 3)
+console.log(value)
