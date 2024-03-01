@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Usando uma Classe para imprimir</h1>
+    <p>Criando duas Classes de carros:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        class Car {
+            constructor(brand, model, year) {
+                this.brand = brand;
+                this.model = model;
+                this.year = year;
+            }
+        }
+
+        const myCar1 = new Car("Audi", "E-tron GT", "2024");
+
+        document.getElementById("demo").innerHTML = myCar1.brand + " " + myCar1.model + " " + myCar1.year;
+    </script>
+</body>
+</html>
