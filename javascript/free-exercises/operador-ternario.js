@@ -9,3 +9,9 @@ accountBalance > 0 ? "Positive Balance" : "Negative Balance";
 
 var accountBalance2 = -20;
 accountBalance2 > 0 ? "Positive Balance" : "Negative Balance";
+
+const userPassword = "@FilipeBratti2410";
+userPassword === "@FilipeBratti2410" ? "Login realizado" : "Senha incorreta";
+
+const userPasswordTwo = "12345";
+userPasswordTwo === "1234" ? "Login realizado" : "Senha incorreta";
